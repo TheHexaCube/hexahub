@@ -837,10 +837,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a56e983b-4ae5-409b-8d4e-ab71197a967e))
-    (pin "2" (uuid 9d3d8e78-3ab7-4634-90a6-96f3fb578b12))
-    (pin "2" (uuid 9d3d8e78-3ab7-4634-90a6-96f3fb578b12))
-    (pin "3" (uuid 5296b649-5c80-4e61-a750-e55463c727a1))
-    (pin "3" (uuid 5296b649-5c80-4e61-a750-e55463c727a1))
+    (pin "2" (uuid 9d3d8e78-3ab7-4634-90a6-96f3fb578b13))
+    (pin "2" (uuid 9d3d8e78-3ab7-4634-90a6-96f3fb578b13))
+    (pin "3" (uuid 5296b649-5c80-4e61-a750-e55463c727a2))
+    (pin "3" (uuid 5296b649-5c80-4e61-a750-e55463c727a2))
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
