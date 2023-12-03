@@ -517,18 +517,18 @@
       "/USB3_Port_4/SS_RX-": "85_ohm",
       "/USB3_Port_4/SS_TX+": "85_ohm",
       "/USB3_Port_4/SS_TX-": "85_ohm",
-      "/USB3_Port_5/D+": "90_ohm",
-      "/USB3_Port_5/D-": "90_ohm",
-      "/USB3_Port_5/SS_RX+": "85_ohm",
-      "/USB3_Port_5/SS_RX-": "85_ohm",
-      "/USB3_Port_5/SS_TX+": "85_ohm",
-      "/USB3_Port_5/SS_TX-": "85_ohm",
       "/USB3_Port_6/D+": "90_ohm",
       "/USB3_Port_6/D-": "90_ohm",
       "/USB3_Port_6/SS_RX+": "85_ohm",
       "/USB3_Port_6/SS_RX-": "85_ohm",
       "/USB3_Port_6/SS_TX+": "85_ohm",
       "/USB3_Port_6/SS_TX-": "85_ohm",
+      "/USB3_Port_7/D+": "90_ohm",
+      "/USB3_Port_7/D-": "90_ohm",
+      "/USB3_Port_7/SS_RX+": "85_ohm",
+      "/USB3_Port_7/SS_RX-": "85_ohm",
+      "/USB3_Port_7/SS_TX+": "85_ohm",
+      "/USB3_Port_7/SS_TX-": "85_ohm",
       "Net-(J10-D+)": "90_ohm",
       "Net-(J10-D-)": "90_ohm",
       "Net-(J11-D+)": "90_ohm",
@@ -611,8 +611,8 @@
       "Net-(U36-O4)": "85_ohm",
       "Net-(U39-O3)": "85_ohm",
       "Net-(U39-O4)": "85_ohm",
-      "Net-(U4-USB2DN_DM7)": "90_ohm",
-      "Net-(U4-USB2DN_DP7)": "90_ohm"
+      "Net-(U4-USB2DN_DM5)": "90_ohm",
+      "Net-(U4-USB2DN_DP5)": "90_ohm"
     },
     "netclass_patterns": []
   },
@@ -684,11 +684,11 @@
     ],
     [
       "db2ec964-eaeb-4a3f-babe-a86e8c4c3412",
-      "USB3_Port_5"
+      "USB3_Port_6"
     ],
     [
       "d2e100cb-ff48-46fe-85c4-e0b63d9e5596",
-      "USB3_Port_6"
+      "USB3_Port_7"
     ],
     [
       "f86eb79d-14ff-42b7-91f4-2c57857f10f7",
