@@ -1,0 +1,58 @@
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 326:Plugin executed on: 'win32'
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 327:Plugin executed with python version: '3.9.16 (main, Aug  8 2023, 05:38:28) [MSC v.1936 64 bit (AMD64)]'
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 328:KiCad build version: 7.0.7
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 329:Plugin version: 2.0.1
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 330:Frame repr: <wx._core.Frame object at 0x000001BE94D5C040>
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 354:Preparing replicator with J18 as a reference
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 110:getting a list of all footprints on board
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:source anchor footprint is 'J18'
+Located on: ['USB2_Port_7']
+With filenames: ['usb2_type_a_port.kicad_sch']
+With sheet_id:['USB2_Port_7']
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Corresponding footprints are 
+[('J20', ['USB2_Port_9']), ('J19', ['USB2_Port_8']), ('J18', ['USB2_Port_7'])]
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 421:Showing dialog
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:constructing a list of sheets suitable for replication on level:'USB2_Port_7', file:'usb2_type_a_port.kicad_sch'
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 395:suitable sheets are:[['USB2_Port_8'], ['USB2_Port_9']]
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1318:Level selected: ['USB2_Port_7']
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1153:Filtering list of tracks
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 427:Toolbar position: wx.Point(4443, 255)
+12-07 19:35:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 432:Dialog position: wx.Point(4079, 255)
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:constructing a list of sheets suitable for replication on level:'USB2_Port_7', file:'usb2_type_a_port.kicad_sch'
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 395:suitable sheets are:[['USB2_Port_8'], ['USB2_Port_9']]
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 188:Replicating layout
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 204:Starting replication of sheets: [['USB2_Port_8'], ['USB2_Port_9']]
+on level: ['USB2_Port_7']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+12-07 19:35:40 root 266:updating GUI message: 'Preparing for replication'
+12-07 19:35:40 root 271:updating GUI with: 0
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 274:Getting the list of source footprints
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 284:Getting the list of all the remaining footprints
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 291:Getting source tracks
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1153:Filtering list of tracks
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 295:Getting source zones
+12-07 19:35:40 root 271:updating GUI with: 50
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 299:Getting source text items
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 303:Getting source drawing items
+12-07 19:35:40 root 266:updating GUI message: 'Replicating footprints'
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 709:Replicating footprints
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 715:Replicating footprints on sheet ['USB2_Port_8']
+12-07 19:35:40 root 271:updating GUI with: 12
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 715:Replicating footprints on sheet ['USB2_Port_9']
+12-07 19:35:40 root 266:updating GUI message: 'Replicating tracks'
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 875:Replicating tracks
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 881:Replicating tracks on sheet ['USB2_Port_8']
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 881:Replicating tracks on sheet ['USB2_Port_9']
+12-07 19:35:40 root 266:updating GUI message: 'Replicating zones'
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 933:Replicating zones
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 940:Replicating zones on sheet ['USB2_Port_8']
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 940:Replicating zones on sheet ['USB2_Port_9']
+12-07 19:35:40 root 266:updating GUI message: 'Replicating text'
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating text
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1018:Replicating text on sheet ['USB2_Port_8']
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1018:Replicating text on sheet ['USB2_Port_9']
+12-07 19:35:40 root 266:updating GUI message: 'Replicating drawings'
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1051:Replicating drawings
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1057:Replicating drawings on sheet ['USB2_Port_8']
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1057:Replicating drawings on sheet ['USB2_Port_9']
+12-07 19:35:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 204:Replication complete

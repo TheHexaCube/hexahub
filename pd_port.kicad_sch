@@ -3529,7 +3529,7 @@
   (symbol (lib_id "Interface_USB:TPD4E02B04") (at 306.07 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06ca31c7-e47b-45c1-b9f8-bc35516b9237)
-    (property "Reference" "U2" (at 309.88 179.07 0)
+    (property "Reference" "U?" (at 309.88 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPD4E02B04" (at 295.91 179.07 0)
@@ -3539,6 +3539,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "TPD4E02B04" (at 306.07 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C106794" (at 306.07 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TPD4E02B04DQAR" (at 306.07 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1d3b1731-d7dc-46ea-885e-da5ba3bfe5ad))
@@ -3554,19 +3560,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "U2") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "U16") (unit 1)
+          (reference "U21") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "U29") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "U23") (unit 1)
+          (reference "U29") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "U30") (unit 1)
+          (reference "U37") (unit 1)
         )
       )
     )
@@ -3575,16 +3581,22 @@
   (symbol (lib_id "Device:C_Small") (at 251.46 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a27e816-71b5-494f-abc7-85ffdee69ac8)
-    (property "Reference" "C54" (at 248.92 186.6963 0)
+    (property "Reference" "C?" (at 248.92 186.6963 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 248.92 189.2363 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 251.46 187.96 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 251.46 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 251.46 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at 251.46 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at 251.46 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1d5d5df7-3808-4685-a5d0-94adbdcd0134))
@@ -3592,19 +3604,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C54") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C68") (unit 1)
+          (reference "C94") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C99") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C88") (unit 1)
+          (reference "C117") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C108") (unit 1)
+          (reference "C140") (unit 1)
         )
       )
     )
@@ -3613,16 +3625,22 @@
   (symbol (lib_id "Device:C_Polarized") (at 139.7 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13f0c4ec-d8c1-490d-89f3-38dfba7c0346)
-    (property "Reference" "C10" (at 143.51 47.371 0)
+    (property "Reference" "C?" (at 143.51 47.371 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 143.51 49.911 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 140.6652 53.34 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5" (at 140.6652 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5162347" (at 139.7 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CS1H101M-CRF10" (at 139.7 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d6ec15e1-47fa-483c-bdc7-b31f60bca12e))
@@ -3630,19 +3648,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C10") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C54") (unit 1)
+          (reference "C77") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C85") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C74") (unit 1)
+          (reference "C100") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C94") (unit 1)
+          (reference "C123") (unit 1)
         )
       )
     )
@@ -3651,7 +3669,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 116.84 57.15 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 153ce55f-405b-4a24-9541-26f9878e3204)
-    (property "Reference" "TP28" (at 115.57 57.15 0)
+    (property "Reference" "TP5" (at 115.57 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Small" (at 115.57 58.42 0)
@@ -3667,13 +3685,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "TP28") (unit 1)
+          (reference "TP5") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "TP29") (unit 1)
+          (reference "TP13") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "TP30") (unit 1)
+          (reference "TP21") (unit 1)
         )
       )
     )
@@ -3682,16 +3700,22 @@
   (symbol (lib_id "Device:C_Small") (at 355.6 171.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 179b0842-d5ad-4ad1-9353-de141c5ba25a)
-    (property "Reference" "C1" (at 352.9494 170.332 90)
+    (property "Reference" "C?" (at 352.9494 170.332 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 359.1399 170.4024 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 355.6 171.45 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 355.6 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 355.6 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at 355.6 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at 355.6 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a269921c-a3c5-4e91-9045-94190e8e1f95))
@@ -3699,19 +3723,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C65") (unit 1)
+          (reference "C91") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C96") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C85") (unit 1)
+          (reference "C114") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C105") (unit 1)
+          (reference "C137") (unit 1)
         )
       )
     )
@@ -3720,16 +3744,22 @@
   (symbol (lib_id "Device:C_Small") (at -5.08 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19f74011-1fbb-48ea-bb35-204aafbba8f6)
-    (property "Reference" "C12" (at -7.62 64.7763 0)
+    (property "Reference" "C?" (at -7.62 64.7763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at -7.62 67.3163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at -5.08 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at -5.08 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at -5.08 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at -5.08 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at -5.08 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3aec92d5-12bd-4a2a-a9f9-431d4d39caa9))
@@ -3737,19 +3767,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C12") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C57") (unit 1)
+          (reference "C80") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C88") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C77") (unit 1)
+          (reference "C103") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C97") (unit 1)
+          (reference "C126") (unit 1)
         )
       )
     )
@@ -3758,16 +3788,22 @@
   (symbol (lib_id "Device:R_Small") (at 41.91 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b0b6fef-b63b-4c26-9cbc-9549e9183f77)
-    (property "Reference" "R5" (at 39.37 59.69 90)
+    (property "Reference" "R?" (at 39.37 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30R1" (at 44.45 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 41.91 62.23 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 41.91 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C416516" (at 41.91 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "ERJ2RKF30R1X" (at 41.91 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b07d4cd9-321b-49c0-adb8-b9870d52d123))
@@ -3775,19 +3811,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R26") (unit 1)
+          (reference "R35") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R49") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "R38") (unit 1)
+          (reference "R53") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R50") (unit 1)
+          (reference "R71") (unit 1)
         )
       )
     )
@@ -3796,16 +3832,22 @@
   (symbol (lib_id "Device:R_Small") (at 170.18 66.04 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 21d70798-3b0a-49b0-b9c6-c311acc255c5)
-    (property "Reference" "R14" (at 168.91 64.77 0)
+    (property "Reference" "R?" (at 168.91 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 168.91 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 170.18 66.04 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 170.18 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 170.18 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25744" (at 170.18 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402WGF1002TCE" (at 170.18 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid acb7d475-a5fe-4d16-95eb-3b432f3ddc5b))
@@ -3813,19 +3855,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R73") (unit 1)
+          (reference "R36") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R56") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "R74") (unit 1)
+          (reference "R54") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R75") (unit 1)
+          (reference "R72") (unit 1)
         )
       )
     )
@@ -3834,7 +3876,7 @@
   (symbol (lib_id "power:GND") (at -19.05 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2415fa42-c21d-49a2-8080-10dc5ed93588)
-    (property "Reference" "#PWR09" (at -19.05 110.49 0)
+    (property "Reference" "#PWR?" (at -19.05 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -19.05 107.95 0)
@@ -3850,19 +3892,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -3871,7 +3913,7 @@
   (symbol (lib_id "Interface_USB:ESD122") (at 347.98 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 266d8630-175c-4651-b870-97ac250bcffc)
-    (property "Reference" "U9" (at 342.9 147.32 0)
+    (property "Reference" "U?" (at 342.9 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ESD122" (at 350.52 147.32 0)
@@ -3883,6 +3925,12 @@
     (property "Datasheet" "" (at 353.06 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C544474" (at 347.98 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "ESD122DMXR" (at 347.98 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ed32dbb8-b175-4fa3-b6b6-d29697b21f70))
     (pin "2" (uuid e48f98c6-1614-4949-9419-13305b2a6b9b))
     (pin "2" (uuid e48f98c6-1614-4949-9419-13305b2a6b9b))
@@ -3891,19 +3939,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "U9") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "U13") (unit 1)
+          (reference "U18") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "U26") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "U20") (unit 1)
+          (reference "U26") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "U27") (unit 1)
+          (reference "U34") (unit 1)
         )
       )
     )
@@ -3912,16 +3960,22 @@
   (symbol (lib_id "Device:C_Small") (at 347.98 173.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 271a9fce-f0a5-4e11-b972-76eaa023131e)
-    (property "Reference" "C2" (at 345.3294 172.872 90)
+    (property "Reference" "C?" (at 345.3294 172.872 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 351.5199 172.9424 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 347.98 173.99 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 347.98 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 347.98 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at 347.98 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at 347.98 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4e8ccf7a-b0c6-4430-9d83-63dcdd09a169))
@@ -3929,19 +3983,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C66") (unit 1)
+          (reference "C92") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C97") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C86") (unit 1)
+          (reference "C115") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C106") (unit 1)
+          (reference "C138") (unit 1)
         )
       )
     )
@@ -3950,7 +4004,7 @@
   (symbol (lib_id "Device:D_TVS") (at 269.24 48.26 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a45e147-4b0b-4913-8742-bcb8c426b3b4)
-    (property "Reference" "D1" (at 266.7 46.99 90)
+    (property "Reference" "D?" (at 266.7 46.99 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TBD" (at 266.7 49.53 90)
@@ -3967,16 +4021,16 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "D1") (unit 1)
+          (reference "D?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "D7") (unit 1)
+          (reference "D3") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "D8") (unit 1)
+          (reference "D4") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "D9") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -3985,16 +4039,22 @@
   (symbol (lib_id "Device:C_Small") (at 347.98 189.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ab63bda-8dea-4676-9e55-a118c653583b)
-    (property "Reference" "C4" (at 345.3294 188.112 90)
+    (property "Reference" "C?" (at 345.3294 188.112 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 351.5199 188.1824 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 347.98 189.23 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 347.98 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 347.98 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at 347.98 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at 347.98 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7d55749c-d9e2-4dde-8cf9-ad55400c279d))
@@ -4002,19 +4062,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C4") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C69") (unit 1)
+          (reference "C95") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C89") (unit 1)
+          (reference "C118") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C109") (unit 1)
+          (reference "C141") (unit 1)
         )
       )
     )
@@ -4023,7 +4083,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 295.91 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d2ad402-21b1-49c6-8103-682091bc4021)
-    (property "Reference" "TP19" (at 294.64 39.37 0)
+    (property "Reference" "TP4" (at 294.64 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Small" (at 294.64 40.64 0)
@@ -4039,13 +4099,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "TP19") (unit 1)
+          (reference "TP4") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "TP20") (unit 1)
+          (reference "TP12") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "TP21") (unit 1)
+          (reference "TP20") (unit 1)
         )
       )
     )
@@ -4054,13 +4114,13 @@
   (symbol (lib_id "Device:C_Small") (at 43.18 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d6a1f30-292c-47a5-89cf-1fb419df2e52)
-    (property "Reference" "C16" (at 41.5965 100.031 0)
+    (property "Reference" "C?" (at 41.5965 100.031 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1n" (at 40.5693 102.3518 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 43.18 101.6 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 43.18 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.18 101.6 0)
@@ -4071,19 +4131,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C16") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C60") (unit 1)
+          (reference "C85") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C91") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C80") (unit 1)
+          (reference "C108") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C100") (unit 1)
+          (reference "C131") (unit 1)
         )
       )
     )
@@ -4092,16 +4152,22 @@
   (symbol (lib_id "Device:R_Small") (at 53.34 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3190f3ce-4fcd-4632-ac81-79863a181658)
-    (property "Reference" "R13" (at 52.07 105.41 0)
+    (property "Reference" "R?" (at 52.07 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "50k" (at 52.07 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 53.34 106.68 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 53.34 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C166559" (at 53.34 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "RTT025002FTH" (at 53.34 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a59c718e-14a3-44f8-813f-89a991fcba60))
@@ -4109,19 +4175,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R13") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R31") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R54") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
           (reference "R43") (unit 1)
         )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
+          (reference "R?") (unit 1)
+        )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
+          (reference "R61") (unit 1)
+        )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R55") (unit 1)
+          (reference "R79") (unit 1)
         )
       )
     )
@@ -4130,13 +4196,13 @@
   (symbol (lib_id "Device:R_Small") (at 77.47 99.06 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 32131ea2-b6da-43d5-8c67-ab71987d4c0b)
-    (property "Reference" "R11" (at 78.74 97.79 0)
+    (property "Reference" "R?" (at 78.74 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 78.74 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 77.47 99.06 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 77.47 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 99.06 0)
@@ -4147,19 +4213,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R11") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R30") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R53") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
           (reference "R42") (unit 1)
         )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
+          (reference "R?") (unit 1)
+        )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
+          (reference "R60") (unit 1)
+        )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R54") (unit 1)
+          (reference "R78") (unit 1)
         )
       )
     )
@@ -4168,16 +4234,22 @@
   (symbol (lib_id "Device:C_Small") (at 270.51 81.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a775b77-e3d8-4924-9e1e-1829315ddf61)
-    (property "Reference" "C12" (at 273.05 80.0163 0)
+    (property "Reference" "C?" (at 273.05 80.0163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220p" (at 273.05 82.5563 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 270.51 81.28 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 270.51 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 270.51 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C76960" (at 270.51 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "GRM1555C1H220JA01D" (at 270.51 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 78978e01-23eb-49d7-b3ba-aadf5db214ce))
@@ -4185,19 +4257,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C12") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C135") (unit 1)
+          (reference "C83") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C87") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C136") (unit 1)
+          (reference "C106") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C137") (unit 1)
+          (reference "C129") (unit 1)
         )
       )
     )
@@ -4206,7 +4278,7 @@
   (symbol (lib_id "power:+24V") (at -39.37 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ad45170-7f56-48b2-b11e-52220c711bee)
-    (property "Reference" "#PWR05" (at -39.37 39.37 0)
+    (property "Reference" "#PWR?" (at -39.37 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at -39.37 31.75 0)
@@ -4222,19 +4294,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -4243,16 +4315,22 @@
   (symbol (lib_id "Device:R_Small") (at 41.91 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3eb765d6-fe26-496c-81fa-107e3638db15)
-    (property "Reference" "R6" (at 39.37 67.31 90)
+    (property "Reference" "R?" (at 39.37 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30R1" (at 44.45 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 41.91 69.85 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 41.91 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C416516" (at 41.91 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "ERJ2RKF30R1X" (at 41.91 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 946c7146-f8cc-4524-9fdb-ec1ee76353ac))
@@ -4260,19 +4338,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R6") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R28") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R51") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
           (reference "R40") (unit 1)
         )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
+          (reference "R?") (unit 1)
+        )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
+          (reference "R58") (unit 1)
+        )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R52") (unit 1)
+          (reference "R76") (unit 1)
         )
       )
     )
@@ -4281,7 +4359,7 @@
   (symbol (lib_id "power:GND") (at 306.07 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41eddae9-7c49-4846-930c-5feacf8f37c9)
-    (property "Reference" "#PWR03" (at 306.07 177.8 0)
+    (property "Reference" "#PWR?" (at 306.07 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.4184 173.3231 0)
@@ -4297,19 +4375,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -4318,7 +4396,7 @@
   (symbol (lib_id "power:GND") (at 377.19 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4307ef41-acdb-4fae-bd3b-d57aa6f12b74)
-    (property "Reference" "#PWR01" (at 377.19 222.25 0)
+    (property "Reference" "#PWR?" (at 377.19 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 377.19 220.98 0)
@@ -4334,19 +4412,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -4355,7 +4433,7 @@
   (symbol (lib_id "power:GND") (at 8.89 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43d4e7b4-8164-4a5b-bce1-f963c2f77dc8)
-    (property "Reference" "#PWR06" (at 8.89 116.84 0)
+    (property "Reference" "#PWR?" (at 8.89 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 8.89 114.3 0)
@@ -4371,19 +4449,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -4392,7 +4470,7 @@
   (symbol (lib_id "power:GND") (at 72.39 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44611b00-5809-41c0-8e1e-ebd8bc071587)
-    (property "Reference" "#PWR013" (at 72.39 120.65 0)
+    (property "Reference" "#PWR?" (at 72.39 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 118.11 0)
@@ -4408,19 +4486,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -4429,7 +4507,7 @@
   (symbol (lib_id "power:GND") (at 266.7 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 447969ea-e296-497e-a8d1-1f456de44323)
-    (property "Reference" "#PWR044" (at 266.7 204.47 0)
+    (property "Reference" "#PWR?" (at 266.7 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 263.0484 199.9931 0)
@@ -4445,19 +4523,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
     )
@@ -4466,16 +4544,22 @@
   (symbol (lib_id "Device:R_Small") (at 116.84 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45beeb6b-da82-4880-9adc-930ef6bc297d)
-    (property "Reference" "R14" (at 115.57 66.04 0)
+    (property "Reference" "R?" (at 115.57 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 115.57 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 116.84 67.31 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 116.84 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25744" (at 116.84 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402WGF1002TCE" (at 116.84 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 929265bb-df66-457f-8c12-d6d48fc7a103))
@@ -4483,19 +4567,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R92") (unit 1)
+          (reference "R38") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R56") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "R93") (unit 1)
+          (reference "R56") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R94") (unit 1)
+          (reference "R74") (unit 1)
         )
       )
     )
@@ -4504,13 +4588,13 @@
   (symbol (lib_id "Device:R") (at 63.5 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 489df92b-3b36-4899-a700-4b601b9a2bc6)
-    (property "Reference" "R4" (at 63.5 38.1 90)
+    (property "Reference" "R?" (at 63.5 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10m" (at 63.5 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 63.5 46.228 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 63.5 46.228 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 63.5 44.45 0)
@@ -4521,19 +4605,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R24") (unit 1)
+          (reference "R30") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R47") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "R36") (unit 1)
+          (reference "R48") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R48") (unit 1)
+          (reference "R66") (unit 1)
         )
       )
     )
@@ -4542,7 +4626,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 86.36 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d03efa3-f51b-4aca-9f93-9d292947351e)
-    (property "Reference" "TP10" (at 85.09 39.37 0)
+    (property "Reference" "TP2" (at 85.09 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Small" (at 85.09 40.64 0)
@@ -4558,13 +4642,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "TP10") (unit 1)
+          (reference "TP2") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "TP11") (unit 1)
+          (reference "TP10") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "TP12") (unit 1)
+          (reference "TP18") (unit 1)
         )
       )
     )
@@ -4573,7 +4657,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x07") (at 151.13 177.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5119a2d3-ddf1-4d18-9212-a71910aca093)
-    (property "Reference" "J14" (at 143.51 170.18 0)
+    (property "Reference" "J10" (at 143.51 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Flash_ISP" (at 143.51 172.72 0)
@@ -4595,13 +4679,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "J14") (unit 1)
+          (reference "J10") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "J15") (unit 1)
+          (reference "J12") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "J16") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -4610,7 +4694,7 @@
   (symbol (lib_id "power:GND") (at 106.68 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54722371-8737-4aa9-99eb-919d07c00589)
-    (property "Reference" "#PWR04" (at 106.68 77.47 0)
+    (property "Reference" "#PWR?" (at 106.68 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 74.93 0)
@@ -4626,19 +4710,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR0166") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR0167") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0168") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -4647,16 +4731,22 @@
   (symbol (lib_id "Device:R_Small") (at -22.86 69.85 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54ca9c9d-1cc0-4936-8006-a2104217c6fb)
-    (property "Reference" "R8" (at -20.32 67.31 90)
+    (property "Reference" "R?" (at -20.32 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30R1" (at -25.4 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at -22.86 69.85 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at -22.86 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at -22.86 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C416516" (at -22.86 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "ERJ2RKF30R1X" (at -22.86 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1c8be8eb-4960-4399-bf09-0121f794c73a))
@@ -4664,19 +4754,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R27") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R50") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
           (reference "R39") (unit 1)
         )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
+          (reference "R?") (unit 1)
+        )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
+          (reference "R57") (unit 1)
+        )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R51") (unit 1)
+          (reference "R75") (unit 1)
         )
       )
     )
@@ -4685,7 +4775,7 @@
   (symbol (lib_id "power:GND") (at 157.48 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55238457-5901-42e1-a7fc-d71aba10a01f)
-    (property "Reference" "#PWR029" (at 157.48 195.58 0)
+    (property "Reference" "#PWR?" (at 157.48 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 193.04 0)
@@ -4701,16 +4791,16 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR0154") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR0155") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0156") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -4719,13 +4809,13 @@
   (symbol (lib_id "Device:R") (at -34.29 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56d49df1-7942-4bb3-8ead-ea0a5ae72a68)
-    (property "Reference" "R9" (at -34.29 38.1 90)
+    (property "Reference" "R?" (at -34.29 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5m" (at -34.29 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at -34.29 46.228 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at -34.29 46.228 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at -34.29 44.45 0)
@@ -4736,19 +4826,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R23") (unit 1)
+          (reference "R29") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R46") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "R35") (unit 1)
+          (reference "R47") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R47") (unit 1)
+          (reference "R65") (unit 1)
         )
       )
     )
@@ -4757,7 +4847,7 @@
   (symbol (lib_id "power:GND") (at 139.7 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d8faebc-903f-4785-b97b-9ad88345f621)
-    (property "Reference" "#PWR029" (at 139.7 166.37 0)
+    (property "Reference" "#PWR?" (at 139.7 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 163.83 0)
@@ -4773,16 +4863,16 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -4791,7 +4881,7 @@
   (symbol (lib_id "power:+3V3") (at 139.7 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f877efd-c8bd-445c-a000-ceadb356a8be)
-    (property "Reference" "#PWR028" (at 139.7 139.7 0)
+    (property "Reference" "#PWR?" (at 139.7 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 143.51 134.62 0)
@@ -4807,16 +4897,16 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -4825,7 +4915,7 @@
   (symbol (lib_id "power:GND") (at 322.58 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60ec536e-e9aa-41e1-b97a-e00f95f9a5f9)
-    (property "Reference" "#PWR08" (at 322.58 157.48 0)
+    (property "Reference" "#PWR?" (at 322.58 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 319.1198 152.6392 0)
@@ -4841,19 +4931,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -4862,16 +4952,22 @@
   (symbol (lib_id "Device:C_Small") (at -8.89 107.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 620617ec-f469-42d0-b04c-9488309078cd)
-    (property "Reference" "C6" (at -6.35 106.6863 0)
+    (property "Reference" "C?" (at -6.35 106.6863 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at -6.35 109.2263 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at -8.89 107.95 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at -8.89 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at -8.89 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at -8.89 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at -8.89 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid abbf246b-9665-4dab-8625-073dc97301da))
@@ -4879,19 +4975,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C6") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C63") (unit 1)
+          (reference "C88") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C94") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C83") (unit 1)
+          (reference "C111") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C103") (unit 1)
+          (reference "C134") (unit 1)
         )
       )
     )
@@ -4900,7 +4996,7 @@
   (symbol (lib_id "Memory_Flash:GD25D10CT") (at 139.7 148.59 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70cc9edd-07dd-4892-bf0c-b606396a7ca5)
-    (property "Reference" "U8" (at 134.62 139.7 0)
+    (property "Reference" "U?" (at 134.62 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GD25D10CT" (at 146.05 139.7 0)
@@ -4910,6 +5006,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf" (at 139.7 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "not in stock" (at 139.7 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "not in stock" (at 139.7 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 17055c75-b788-4df0-9125-7db02016b221))
@@ -4923,16 +5025,16 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "U8") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "U44") (unit 1)
+          (reference "U17") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "U45") (unit 1)
+          (reference "U25") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "U46") (unit 1)
+          (reference "U33") (unit 1)
         )
       )
     )
@@ -4941,7 +5043,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 186.69 138.43 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 737cb17f-4f6f-4335-a9b1-d7b38307f8fc)
-    (property "Reference" "TP7" (at 185.42 138.43 0)
+    (property "Reference" "TP8" (at 185.42 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Small" (at 185.42 139.7 0)
@@ -4957,13 +5059,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "TP7") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
           (reference "TP8") (unit 1)
         )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
+          (reference "TP16") (unit 1)
+        )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "TP9") (unit 1)
+          (reference "TP24") (unit 1)
         )
       )
     )
@@ -4972,13 +5074,13 @@
   (symbol (lib_id "Device:C_Small") (at 34.29 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7676e250-fb7d-4f48-bd00-3c59d8378eaf)
-    (property "Reference" "C15" (at 31.75 106.6863 0)
+    (property "Reference" "C?" (at 31.75 106.6863 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100p" (at 31.75 109.2263 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 34.29 107.95 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 34.29 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.29 107.95 0)
@@ -4989,19 +5091,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C64") (unit 1)
+          (reference "C89") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C95") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C84") (unit 1)
+          (reference "C112") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C104") (unit 1)
+          (reference "C135") (unit 1)
         )
       )
     )
@@ -5010,7 +5112,7 @@
   (symbol (lib_id "Device:L") (at 11.43 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b334950-71b6-4f4d-9c1b-f720620613ee)
-    (property "Reference" "L1" (at 11.43 30.48 90)
+    (property "Reference" "L?" (at 11.43 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L" (at 11.43 33.02 90)
@@ -5027,13 +5129,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "L1") (unit 1)
+          (reference "L?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
           (reference "L5") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "L7") (unit 1)
+          (reference "L?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
           (reference "L6") (unit 1)
@@ -5048,16 +5150,22 @@
   (symbol (lib_id "Device:C_Small") (at 158.75 54.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c5c0ef3-c62f-4530-9807-8623dd2b5f62)
-    (property "Reference" "C12" (at 160.02 53.34 0)
+    (property "Reference" "C?" (at 160.02 53.34 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 160.02 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 158.75 54.61 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 158.75 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at 158.75 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at 158.75 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0de421d1-fef9-4fe3-854b-d84ee19cf53f))
@@ -5065,19 +5173,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C12") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C56") (unit 1)
+          (reference "C79") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C87") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C76") (unit 1)
+          (reference "C102") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C96") (unit 1)
+          (reference "C125") (unit 1)
         )
       )
     )
@@ -5086,16 +5194,22 @@
   (symbol (lib_id "Device:C_Small") (at 266.7 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cbc55a6-13db-48af-8a43-427f21190714)
-    (property "Reference" "C12" (at 264.16 80.0163 0)
+    (property "Reference" "C?" (at 264.16 80.0163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220p" (at 264.16 82.5563 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 266.7 81.28 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 266.7 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 266.7 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C76960" (at 266.7 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "GRM1555C1H220JA01D" (at 266.7 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8fea9bcf-4098-4831-a3f9-9d6af7a4953c))
@@ -5103,19 +5217,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C12") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C138") (unit 1)
+          (reference "C82") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C87") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C139") (unit 1)
+          (reference "C105") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C140") (unit 1)
+          (reference "C128") (unit 1)
         )
       )
     )
@@ -5124,16 +5238,22 @@
   (symbol (lib_id "Device:R_Small") (at 176.53 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e54dad0-42e9-45ac-92b5-15fabfaed349)
-    (property "Reference" "R14" (at 175.26 54.61 0)
+    (property "Reference" "R?" (at 175.26 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 175.26 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 176.53 55.88 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 176.53 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25744" (at 176.53 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402WGF1002TCE" (at 176.53 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ca561efa-fa36-425c-91a9-e9a13323639a))
@@ -5141,19 +5261,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R76") (unit 1)
+          (reference "R33") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R56") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "R77") (unit 1)
+          (reference "R51") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R78") (unit 1)
+          (reference "R69") (unit 1)
         )
       )
     )
@@ -5162,7 +5282,7 @@
   (symbol (lib_id "power:+5V") (at 180.34 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f15dd3d-9068-4d13-ad93-44d2cbfa58e7)
-    (property "Reference" "#PWR0141" (at 180.34 38.1 0)
+    (property "Reference" "#PWR0131" (at 180.34 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 180.34 30.48 0)
@@ -5178,13 +5298,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -5193,16 +5313,22 @@
   (symbol (lib_id "Device:C_Small") (at 8.89 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83e86aff-3324-4495-b265-5b12634fe567)
-    (property "Reference" "C8" (at 6.35 38.1 0)
+    (property "Reference" "C?" (at 6.35 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47n" (at 6.35 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 8.89 44.45 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 8.89 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 8.89 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C237221" (at 8.89 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402B472K500CT" (at 8.89 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cecb1c5a-2dd7-4646-ac6e-79162b9621dc))
@@ -5210,19 +5336,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C51") (unit 1)
+          (reference "C74") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C83") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C71") (unit 1)
+          (reference "C97") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C91") (unit 1)
+          (reference "C120") (unit 1)
         )
       )
     )
@@ -5231,7 +5357,7 @@
   (symbol (lib_id "power:GND") (at -8.89 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 848d1a04-24a8-45d4-95db-90bc500a97d2)
-    (property "Reference" "#PWR07" (at -8.89 116.84 0)
+    (property "Reference" "#PWR?" (at -8.89 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -8.89 114.3 0)
@@ -5247,19 +5373,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -5268,7 +5394,7 @@
   (symbol (lib_id "power:+3V3") (at 269.24 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85c1711f-f383-41a1-8e37-37c20f42e999)
-    (property "Reference" "#PWR045" (at 269.24 160.02 0)
+    (property "Reference" "#PWR?" (at 269.24 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 269.24 152.4 0)
@@ -5284,19 +5410,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -5305,7 +5431,7 @@
   (symbol (lib_id "power:GND") (at 139.7 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8628186f-fed0-4d11-9fff-04d334035903)
-    (property "Reference" "#PWR012" (at 139.7 60.96 0)
+    (property "Reference" "#PWR?" (at 139.7 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 58.42 0)
@@ -5321,19 +5447,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -5342,7 +5468,7 @@
   (symbol (lib_id "Interface_USB:HD3SS3212") (at 269.24 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a134859-aa2e-479a-b6f8-6c055ec351d2)
-    (property "Reference" "U3" (at 274.32 158.75 0)
+    (property "Reference" "U?" (at 274.32 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HD3SS3212" (at 260.35 193.04 90)
@@ -5352,6 +5478,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/hd3ss3212.pdf?ts=1698851946401&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FHD3SS3212" (at 269.24 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C544517" (at 269.24 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "HD3SS3212IRKSR" (at 269.24 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e06fca86-0876-4d5c-842c-9514278be6d4))
@@ -5377,19 +5509,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "U3") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "U15") (unit 1)
+          (reference "U20") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "U28") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "U22") (unit 1)
+          (reference "U28") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "U29") (unit 1)
+          (reference "U36") (unit 1)
         )
       )
     )
@@ -5398,16 +5530,22 @@
   (symbol (lib_id "Device:C_Small") (at 129.54 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a922e04-d9e9-4c1a-ae50-486156aaf7a0)
-    (property "Reference" "C40" (at 127 146.05 0)
+    (property "Reference" "C?" (at 127 146.05 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 127 148.59 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 129.54 147.32 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 129.54 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 129.54 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at 129.54 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at 129.54 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 542817bd-85d4-4105-8511-fbf47c27ff8a))
@@ -5415,16 +5553,16 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C40") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C132") (unit 1)
+          (reference "C90") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C133") (unit 1)
+          (reference "C113") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C134") (unit 1)
+          (reference "C136") (unit 1)
         )
       )
     )
@@ -5433,7 +5571,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 186.69 135.89 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d2acf02-0e60-45cd-a89b-dd459276a37f)
-    (property "Reference" "TP4" (at 185.42 135.89 0)
+    (property "Reference" "TP7" (at 185.42 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Small" (at 185.42 137.16 0)
@@ -5449,13 +5587,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "TP4") (unit 1)
+          (reference "TP7") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "TP5") (unit 1)
+          (reference "TP15") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "TP6") (unit 1)
+          (reference "TP23") (unit 1)
         )
       )
     )
@@ -5464,7 +5602,7 @@
   (symbol (lib_id "power:+3V3") (at -12.7 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9101b42c-696f-41a5-868a-f1ef2a2c7965)
-    (property "Reference" "#PWR011" (at -12.7 62.23 0)
+    (property "Reference" "#PWR?" (at -12.7 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at -12.7 54.61 0)
@@ -5480,19 +5618,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -5501,7 +5639,7 @@
   (symbol (lib_id "power:+3V3") (at 157.48 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94169c2d-a707-40b3-958c-7ea1a5abe5ca)
-    (property "Reference" "#PWR028" (at 157.48 172.72 0)
+    (property "Reference" "#PWR?" (at 157.48 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 157.48 165.1 0)
@@ -5517,13 +5655,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR0151") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR0152") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
           (reference "#PWR0153") (unit 1)
@@ -5535,16 +5673,22 @@
   (symbol (lib_id "Device:C_Polarized") (at 276.86 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 990d9f25-82a1-454b-a5ab-0e17476c987b)
-    (property "Reference" "C53" (at 280.67 46.101 0)
+    (property "Reference" "C76" (at 280.67 46.101 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 280.67 48.641 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 277.8252 52.07 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5" (at 277.8252 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 276.86 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5162347" (at 276.86 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CS1H101M-CRF10" (at 276.86 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 43ba1a37-5895-4b46-a572-49498dcc41bb))
@@ -5552,13 +5696,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C53") (unit 1)
+          (reference "C76") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C73") (unit 1)
+          (reference "C99") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C93") (unit 1)
+          (reference "C122") (unit 1)
         )
       )
     )
@@ -5567,16 +5711,22 @@
   (symbol (lib_id "Device:R_Small") (at 72.39 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 996d6b55-1707-4d07-8fd6-fba6017b104b)
-    (property "Reference" "R10" (at 71.12 105.41 0)
+    (property "Reference" "R?" (at 71.12 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "50k" (at 71.12 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 72.39 106.68 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 72.39 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C166559" (at 72.39 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "RTT025002FTH" (at 72.39 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dad4634a-28eb-4134-8cae-c82da05f060f))
@@ -5584,19 +5734,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R32") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R55") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
           (reference "R44") (unit 1)
         )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
+          (reference "R?") (unit 1)
+        )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
+          (reference "R62") (unit 1)
+        )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R56") (unit 1)
+          (reference "R80") (unit 1)
         )
       )
     )
@@ -5605,13 +5755,13 @@
   (symbol (lib_id "Device:C_Small") (at 77.47 106.68 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 9b66dcbf-5515-44b4-96b1-ab9daecc5d61)
-    (property "Reference" "C13" (at 80.01 105.4163 0)
+    (property "Reference" "C?" (at 80.01 105.4163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DNP" (at 80.01 107.9563 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 77.47 106.68 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 77.47 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 106.68 0)
@@ -5622,19 +5772,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C13") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C62") (unit 1)
+          (reference "C87") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C93") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C82") (unit 1)
+          (reference "C110") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C102") (unit 1)
+          (reference "C133") (unit 1)
         )
       )
     )
@@ -5643,13 +5793,13 @@
   (symbol (lib_id "Device:R_Small") (at 58.42 99.06 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid a2a2150c-57b0-44f6-9dc7-fa567e4d8f1c)
-    (property "Reference" "R12" (at 59.69 97.79 0)
+    (property "Reference" "R?" (at 59.69 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 59.69 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 58.42 99.06 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 58.42 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 99.06 0)
@@ -5660,19 +5810,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R12") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R29") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R52") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
           (reference "R41") (unit 1)
         )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
+          (reference "R?") (unit 1)
+        )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
+          (reference "R59") (unit 1)
+        )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R53") (unit 1)
+          (reference "R77") (unit 1)
         )
       )
     )
@@ -5681,16 +5831,22 @@
   (symbol (lib_id "Connector:USB_C_Receptacle") (at 377.19 163.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3d36dd8-28f9-4f14-88a8-a76ebd07d781)
-    (property "Reference" "J1" (at 388.62 166.37 0)
+    (property "Reference" "J?" (at 388.62 166.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "USB_C_Receptacle" (at 388.62 168.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_Molex-1054500101" (at 373.38 163.83 0)
+    (property "Footprint" "Connector_USB:USB3_C_GT-USB-7092A_Right_Angle" (at 373.38 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 373.38 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C3019719" (at 377.19 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "GT-USB-7092A" (at 377.19 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid b2aee536-4982-4e57-8333-0fb5ac850166))
@@ -5721,19 +5877,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "J1") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "J4") (unit 1)
+          (reference "J9") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "J6") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "J5") (unit 1)
+          (reference "J11") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "J6") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -5742,7 +5898,7 @@
   (symbol (lib_id "power:GND") (at 153.67 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7565497-0f98-485d-a254-ed03dd3acdb1)
-    (property "Reference" "#PWR04" (at 153.67 77.47 0)
+    (property "Reference" "#PWR?" (at 153.67 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 74.93 0)
@@ -5758,19 +5914,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -5779,7 +5935,7 @@
   (symbol (lib_id "power:+3V3") (at 153.67 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8e830f7-c491-41f6-a1ee-9113d534cb46)
-    (property "Reference" "#PWR045" (at 153.67 38.1 0)
+    (property "Reference" "#PWR?" (at 153.67 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 153.67 30.48 0)
@@ -5795,19 +5951,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -5816,16 +5972,22 @@
   (symbol (lib_id "Device:C_Small") (at 13.97 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab8eb2e5-d61d-443c-8b4a-1b0cee291096)
-    (property "Reference" "C9" (at 12.7 38.1 0)
+    (property "Reference" "C?" (at 12.7 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47n" (at 12.7 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 13.97 44.45 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 13.97 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 13.97 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C237221" (at 13.97 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402B472K500CT" (at 13.97 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 02d5c1a3-fc3f-4054-ad02-3776d84672ef))
@@ -5833,19 +5995,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C52") (unit 1)
+          (reference "C75") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C72") (unit 1)
+          (reference "C98") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C92") (unit 1)
+          (reference "C121") (unit 1)
         )
       )
     )
@@ -5854,7 +6016,7 @@
   (symbol (lib_id "Regulator_Switching:ACT5101") (at 11.43 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad071ab6-cd53-490c-b835-350d20daccdc)
-    (property "Reference" "U6" (at 16.1641 105.41 0)
+    (property "Reference" "U?" (at 16.1641 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ACT5101" (at 16.1641 107.95 0)
@@ -5864,6 +6026,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.de/datasheet/2/412/ACT5101_Data_Sheet-1714862.pdf" (at 11.43 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "not in stock" (at 11.43 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "not in stock" (at 11.43 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "10" (uuid ee923461-8562-42ab-9fcd-f525b24c0800))
@@ -5902,19 +6070,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "U6") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "U11") (unit 1)
+          (reference "U15") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "U25") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "U18") (unit 1)
+          (reference "U23") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "U25") (unit 1)
+          (reference "U31") (unit 1)
         )
       )
     )
@@ -5923,7 +6091,7 @@
   (symbol (lib_id "Interface_USB:TPD4E02B04") (at 306.07 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af67f2f4-0f8c-4fa4-a905-eeb7344363a0)
-    (property "Reference" "U12" (at 309.88 153.67 0)
+    (property "Reference" "U?" (at 309.88 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPD4E02B04" (at 295.91 153.67 0)
@@ -5933,6 +6101,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "TPD4E02B04" (at 306.07 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C106794" (at 306.07 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TPD4E02B04DQAR" (at 306.07 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5c693707-cbe0-4cd8-89c3-4e1a66f80e83))
@@ -5948,19 +6122,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "U12") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "U14") (unit 1)
+          (reference "U19") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "U27") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "U21") (unit 1)
+          (reference "U27") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "U28") (unit 1)
+          (reference "U35") (unit 1)
         )
       )
     )
@@ -5969,13 +6143,13 @@
   (symbol (lib_id "Device:C_Small") (at 58.42 106.68 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid afe3f811-97b9-4806-b718-bf94c5f5e73c)
-    (property "Reference" "C14" (at 60.96 105.4163 0)
+    (property "Reference" "C?" (at 60.96 105.4163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DNP" (at 60.96 107.9563 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 58.42 106.68 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 58.42 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 106.68 0)
@@ -5986,19 +6160,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C14") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C61") (unit 1)
+          (reference "C86") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C92") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C81") (unit 1)
+          (reference "C109") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C101") (unit 1)
+          (reference "C132") (unit 1)
         )
       )
     )
@@ -6007,16 +6181,22 @@
   (symbol (lib_id "Device:R_Small") (at -22.86 62.23 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1e8d231-898d-442a-953c-ac8fe771b008)
-    (property "Reference" "R7" (at -20.32 59.69 90)
+    (property "Reference" "R?" (at -20.32 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30R1" (at -25.4 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at -22.86 62.23 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at -22.86 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at -22.86 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C416516" (at -22.86 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "ERJ2RKF30R1X" (at -22.86 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 939975bb-b7e5-47ea-8a8d-b0c9a6a726b2))
@@ -6024,19 +6204,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R25") (unit 1)
+          (reference "R34") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R48") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "R37") (unit 1)
+          (reference "R52") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R49") (unit 1)
+          (reference "R70") (unit 1)
         )
       )
     )
@@ -6045,7 +6225,7 @@
   (symbol (lib_id "Interface_USB:TPS65987DDH") (at 208.28 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b55ede6f-918a-47b7-b627-af6b5a718815)
-    (property "Reference" "U5" (at 190.5 35.56 0)
+    (property "Reference" "U?" (at 190.5 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TPS65987DDH" (at 217.17 35.56 0)
@@ -6055,6 +6235,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps65987d.pdf" (at 203.2 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "not in stock" (at 208.28 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "not in stock" (at 208.28 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c3638937-20fb-4fb2-b529-0ce92848ff5a))
@@ -6119,19 +6305,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "U5") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "U10") (unit 1)
+          (reference "U14") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "U24") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "U17") (unit 1)
+          (reference "U22") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "U24") (unit 1)
+          (reference "U30") (unit 1)
         )
       )
     )
@@ -6140,7 +6326,7 @@
   (symbol (lib_id "power:GND") (at 53.34 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdb75a91-4a8a-45e8-b457-9f9c47736ba7)
-    (property "Reference" "#PWR014" (at 53.34 120.65 0)
+    (property "Reference" "#PWR?" (at 53.34 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 118.11 0)
@@ -6156,19 +6342,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -6177,16 +6363,22 @@
   (symbol (lib_id "Device:C_Small") (at 381 212.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfb2f837-04bb-4bdb-a076-77f980e15442)
-    (property "Reference" "C5" (at 375.3606 211.1819 90)
+    (property "Reference" "C?" (at 375.3606 211.1819 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 381.3366 209.5426 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 381 212.09 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 381 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 381 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at 381 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at 381 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5332c0b3-4174-4b3a-a015-abda75d26005))
@@ -6194,19 +6386,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C5") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C70") (unit 1)
+          (reference "C96") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C101") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C90") (unit 1)
+          (reference "C119") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C110") (unit 1)
+          (reference "C142") (unit 1)
         )
       )
     )
@@ -6215,16 +6407,22 @@
   (symbol (lib_id "Device:C_Small") (at 153.67 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5070741-9f18-45eb-8a2d-0ceaa8dfd838)
-    (property "Reference" "C12" (at 151.13 53.3463 0)
+    (property "Reference" "C?" (at 151.13 53.3463 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 151.13 55.8863 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 153.67 54.61 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 153.67 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C307427" (at 153.67 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CL05B105KQ5NQNC" (at 153.67 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b07cb2e0-b841-4514-91d6-d25391b49f79))
@@ -6232,19 +6430,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C12") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C55") (unit 1)
+          (reference "C78") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C86") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C75") (unit 1)
+          (reference "C101") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C95") (unit 1)
+          (reference "C124") (unit 1)
         )
       )
     )
@@ -6253,16 +6451,22 @@
   (symbol (lib_id "Device:C_Small") (at 29.21 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c80df3ac-4295-4f5f-bb27-fec23225da5d)
-    (property "Reference" "C11" (at 31.75 64.7763 0)
+    (property "Reference" "C?" (at 31.75 64.7763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 31.75 67.3163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 29.21 66.04 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 29.21 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 29.21 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at 29.21 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at 29.21 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2609ffe6-2e43-4a34-9972-a0110c2f9bc3))
@@ -6270,19 +6474,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C11") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C58") (unit 1)
+          (reference "C81") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C89") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C78") (unit 1)
+          (reference "C104") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C98") (unit 1)
+          (reference "C127") (unit 1)
         )
       )
     )
@@ -6291,16 +6495,22 @@
   (symbol (lib_id "Device:C_Small") (at -19.05 101.6 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c82e712f-6c24-4b03-86c4-fdf7082d9ee3)
-    (property "Reference" "C7" (at -16.51 100.3363 0)
+    (property "Reference" "C?" (at -16.51 100.3363 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at -16.51 102.8763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at -19.05 101.6 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at -19.05 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at -19.05 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C307427" (at -19.05 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CL05B105KQ5NQNC" (at -19.05 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a724d6e1-1637-401b-b3ca-5720848b2651))
@@ -6308,19 +6518,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C7") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C59") (unit 1)
+          (reference "C84") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C79") (unit 1)
+          (reference "C107") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C99") (unit 1)
+          (reference "C130") (unit 1)
         )
       )
     )
@@ -6329,7 +6539,7 @@
   (symbol (lib_id "power:GND") (at 347.98 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cef15f13-02ce-4aa6-abc8-7c7c443f6c6d)
-    (property "Reference" "#PWR08" (at 347.98 165.1 0)
+    (property "Reference" "#PWR?" (at 347.98 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 344.5198 160.2592 0)
@@ -6345,19 +6555,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
@@ -6366,7 +6576,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at -11.43 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfdd3a1f-6a4e-40f5-9672-4517a57e93b4)
-    (property "Reference" "TP16" (at -12.7 39.37 0)
+    (property "Reference" "TP1" (at -12.7 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Small" (at -12.7 40.64 0)
@@ -6382,13 +6592,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "TP16") (unit 1)
+          (reference "TP1") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "TP17") (unit 1)
+          (reference "TP9") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "TP18") (unit 1)
+          (reference "TP17") (unit 1)
         )
       )
     )
@@ -6397,7 +6607,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 186.69 133.35 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d04c9704-4209-4be5-b0e2-824e8bd1cfe5)
-    (property "Reference" "TP1" (at 185.42 133.35 0)
+    (property "Reference" "TP6" (at 185.42 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Small" (at 185.42 134.62 0)
@@ -6413,13 +6623,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "TP1") (unit 1)
+          (reference "TP6") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "TP2") (unit 1)
+          (reference "TP14") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "TP3") (unit 1)
+          (reference "TP22") (unit 1)
         )
       )
     )
@@ -6428,16 +6638,22 @@
   (symbol (lib_id "Device:R_Small") (at 381 207.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d236b8c4-1796-4eca-8533-8f688a8cb143)
-    (property "Reference" "R1" (at 375.3933 205.9815 90)
+    (property "Reference" "R?" (at 375.3933 205.9815 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "300R" (at 381.14 205.0791 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 381 207.01 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 381 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 381 207.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25102" (at 381 207.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402WGF3000TCE" (at 381 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 05ae83f1-5ce0-423d-a163-fbe1523e3105))
@@ -6445,19 +6661,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R34") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R57") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
           (reference "R46") (unit 1)
         )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
+          (reference "R?") (unit 1)
+        )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
+          (reference "R64") (unit 1)
+        )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R58") (unit 1)
+          (reference "R82") (unit 1)
         )
       )
     )
@@ -6466,16 +6682,22 @@
   (symbol (lib_id "Device:R_Small") (at 176.53 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d92b32a3-ae8e-4cb4-95e6-7732c9018c41)
-    (property "Reference" "R14" (at 175.26 64.77 0)
+    (property "Reference" "R?" (at 175.26 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 175.26 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 176.53 66.04 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 176.53 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25744" (at 176.53 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402WGF1002TCE" (at 176.53 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7b4005ba-e770-432a-8804-65a1eaf51325))
@@ -6483,19 +6705,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R79") (unit 1)
+          (reference "R37") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R56") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "R80") (unit 1)
+          (reference "R55") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R81") (unit 1)
+          (reference "R73") (unit 1)
         )
       )
     )
@@ -6504,16 +6726,22 @@
   (symbol (lib_id "Device:R_Small") (at 43.18 107.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfcd028f-b5a8-4d98-afb0-78c365f324aa)
-    (property "Reference" "R14" (at 41.91 106.68 0)
+    (property "Reference" "R?" (at 41.91 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 41.91 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 43.18 107.95 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 43.18 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.18 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25741" (at 43.18 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402WGF1003TCE" (at 43.18 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 77d9d1ca-0f50-4e63-8562-52501f3419c7))
@@ -6521,19 +6749,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R33") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R56") (unit 1)
-        )
-        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
           (reference "R45") (unit 1)
         )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
+          (reference "R?") (unit 1)
+        )
+        (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
+          (reference "R63") (unit 1)
+        )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R57") (unit 1)
+          (reference "R81") (unit 1)
         )
       )
     )
@@ -6542,7 +6770,7 @@
   (symbol (lib_id "Device:Q_PMOS_DGS") (at 106.68 46.99 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfe11ce4-51c0-441b-b36d-b25d531ce960)
-    (property "Reference" "Q4" (at 109.22 38.1 90)
+    (property "Reference" "Q1" (at 109.22 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Q_PMOS_DGS" (at 109.22 40.64 90)
@@ -6560,13 +6788,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "Q4") (unit 1)
+          (reference "Q1") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "Q5") (unit 1)
+          (reference "Q3") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "Q6") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -6575,7 +6803,7 @@
   (symbol (lib_id "power:GND") (at 269.24 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0941d39-3266-4ed2-a12f-d64f67958916)
-    (property "Reference" "#PWR044" (at 269.24 58.42 0)
+    (property "Reference" "#PWR?" (at 269.24 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 53.34 0)
@@ -6591,19 +6819,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR0160") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR0161") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0162") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -6612,7 +6840,7 @@
   (symbol (lib_id "Device:Q_NMOS_DGS") (at 109.22 62.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e356f290-0cc9-4406-b420-7fc146c12455)
-    (property "Reference" "Q7" (at 102.87 60.96 0)
+    (property "Reference" "Q2" (at 102.87 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_NMOS_DGS" (at 102.87 63.5 0)
@@ -6630,13 +6858,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "Q7") (unit 1)
+          (reference "Q2") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "Q8") (unit 1)
+          (reference "Q4") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "Q9") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -6645,7 +6873,7 @@
   (symbol (lib_id "power:GND") (at 34.29 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e38a8ae9-612b-4d08-a5e9-e0d80a2a8cba)
-    (property "Reference" "#PWR015" (at 34.29 120.65 0)
+    (property "Reference" "#PWR?" (at 34.29 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 118.11 0)
@@ -6661,19 +6889,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -6682,7 +6910,7 @@
   (symbol (lib_id "power:GND") (at 208.28 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3a3d05a-71d3-46bf-b5e8-b97b7785c9e2)
-    (property "Reference" "#PWR04" (at 208.28 165.1 0)
+    (property "Reference" "#PWR?" (at 208.28 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 162.56 0)
@@ -6698,19 +6926,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -6719,7 +6947,7 @@
   (symbol (lib_id "power:GND") (at 116.84 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4455609-82ef-444b-ae61-4f43d9edbbb9)
-    (property "Reference" "#PWR06" (at 116.84 77.47 0)
+    (property "Reference" "#PWR?" (at 116.84 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 74.93 0)
@@ -6735,19 +6963,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR0169") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR0170") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0171") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -6756,7 +6984,7 @@
   (symbol (lib_id "Interface_USB:ESD122") (at 322.58 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5aff3b2-26eb-4520-ac78-c01996356b6e)
-    (property "Reference" "U9" (at 317.5 139.7 0)
+    (property "Reference" "U?" (at 317.5 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ESD122" (at 325.12 139.7 0)
@@ -6768,6 +6996,12 @@
     (property "Datasheet" "" (at 327.66 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C544474" (at 322.58 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "ESD122DMXR" (at 322.58 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid dafb019a-3dcc-4c0e-ba44-49a25b127713))
     (pin "2" (uuid 9d6243a0-de2e-4718-849e-afdeaac00d8a))
     (pin "2" (uuid 9d6243a0-de2e-4718-849e-afdeaac00d8a))
@@ -6776,19 +7010,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "U9") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "U12") (unit 1)
+          (reference "U16") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "U26") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "U19") (unit 1)
+          (reference "U24") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "U26") (unit 1)
+          (reference "U32") (unit 1)
         )
       )
     )
@@ -6797,16 +7031,22 @@
   (symbol (lib_id "Device:C_Small") (at 355.6 186.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebf3d756-8c6c-45e2-843d-2afec4469ed2)
-    (property "Reference" "C3" (at 352.9494 185.572 90)
+    (property "Reference" "C?" (at 352.9494 185.572 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 359.1399 185.6424 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 355.6 186.69 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 355.6 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 355.6 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C386075" (at 355.6 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TMK105B7104KVHF" (at 355.6 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid df4a22b1-986a-4125-8c91-90331e1bc7ea))
@@ -6814,19 +7054,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "C67") (unit 1)
+          (reference "C93") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "C98") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "C87") (unit 1)
+          (reference "C116") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "C107") (unit 1)
+          (reference "C139") (unit 1)
         )
       )
     )
@@ -6835,7 +7075,7 @@
   (symbol (lib_id "power:GND") (at 306.07 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ece32126-a54e-4241-bc2f-b71e924f5d88)
-    (property "Reference" "#PWR02" (at 306.07 204.47 0)
+    (property "Reference" "#PWR?" (at 306.07 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.4184 199.9931 0)
@@ -6851,19 +7091,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -6872,7 +7112,7 @@
   (symbol (lib_id "power:GND") (at 276.86 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0bb5a5f-8e8b-4b43-9b6f-7c4840bfa56f)
-    (property "Reference" "#PWR044" (at 276.86 58.42 0)
+    (property "Reference" "#PWR?" (at 276.86 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 280.67 53.34 0)
@@ -6888,19 +7128,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -6909,7 +7149,7 @@
   (symbol (lib_id "power:GND") (at 266.7 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f153e897-61b4-4101-a24b-6249a08c9dbb)
-    (property "Reference" "#PWR0148" (at 266.7 92.71 0)
+    (property "Reference" "#PWR082" (at 266.7 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 90.17 0)
@@ -6925,13 +7165,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "#PWR0148") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "#PWR0149") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "#PWR0150") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -6940,7 +7180,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 129.54 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f790d920-9b95-49a6-8860-217fa109312a)
-    (property "Reference" "TP13" (at 128.27 39.37 0)
+    (property "Reference" "TP3" (at 128.27 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Small" (at 128.27 40.64 0)
@@ -6956,13 +7196,13 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "TP13") (unit 1)
+          (reference "TP3") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "TP14") (unit 1)
+          (reference "TP11") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "TP15") (unit 1)
+          (reference "TP19") (unit 1)
         )
       )
     )
@@ -6971,16 +7211,22 @@
   (symbol (lib_id "Device:R_Small") (at 97.79 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7fff8c8-e400-47c1-9c2f-62c59e68aa61)
-    (property "Reference" "R14" (at 99.06 48.26 0)
+    (property "Reference" "R?" (at 99.06 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 99.06 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 97.79 49.53 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 97.79 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25744" (at 97.79 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402WGF1002TCE" (at 97.79 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 185ad0a3-0326-4df1-af81-7e53ef36ba65))
@@ -6988,19 +7234,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R89") (unit 1)
+          (reference "R31") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R56") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "R90") (unit 1)
+          (reference "R49") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R91") (unit 1)
+          (reference "R67") (unit 1)
         )
       )
     )
@@ -7009,16 +7255,22 @@
   (symbol (lib_id "Device:R_Small") (at 170.18 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd31d04e-c97b-4e66-8362-bd5abdbf46df)
-    (property "Reference" "R14" (at 168.91 54.61 0)
+    (property "Reference" "R?" (at 168.91 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 168.91 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 170.18 55.88 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 170.18 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 170.18 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25744" (at 170.18 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0402WGF1002TCE" (at 170.18 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 32d9b2b0-b1ad-4f6c-8d23-a74e778793c1))
@@ -7026,19 +7278,19 @@
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/b4f4b8eb-c6ad-4e27-91a3-fdc2b6f37168"
-          (reference "R70") (unit 1)
+          (reference "R32") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/72f5ea5f-d4da-4b63-9511-f600256a25eb"
-          (reference "R56") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/0fb9eab3-3a55-4d77-b670-b2394eec5e18"
-          (reference "R71") (unit 1)
+          (reference "R50") (unit 1)
         )
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0/20c4c77c-c43a-41b8-abb5-74d66e18cc58"
-          (reference "R72") (unit 1)
+          (reference "R68") (unit 1)
         )
       )
     )
