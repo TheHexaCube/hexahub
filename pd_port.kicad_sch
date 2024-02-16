@@ -3932,10 +3932,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ed32dbb8-b175-4fa3-b6b6-d29697b21f70))
-    (pin "2" (uuid e48f98c6-1614-4949-9419-13305b2a6b9b))
-    (pin "2" (uuid e48f98c6-1614-4949-9419-13305b2a6b9b))
-    (pin "3" (uuid dcf49dae-b362-4d86-affd-810069df9ddd))
-    (pin "3" (uuid dcf49dae-b362-4d86-affd-810069df9ddd))
+    (pin "2" (uuid e48f98c6-1614-4949-9419-13305b2a6b9c))
+    (pin "2" (uuid e48f98c6-1614-4949-9419-13305b2a6b9c))
+    (pin "3" (uuid dcf49dae-b362-4d86-affd-810069df9dde))
+    (pin "3" (uuid dcf49dae-b362-4d86-affd-810069df9dde))
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"
@@ -7003,10 +7003,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dafb019a-3dcc-4c0e-ba44-49a25b127713))
-    (pin "2" (uuid 9d6243a0-de2e-4718-849e-afdeaac00d8a))
-    (pin "2" (uuid 9d6243a0-de2e-4718-849e-afdeaac00d8a))
-    (pin "3" (uuid e7368e96-dbe6-49a4-a97c-ecef99194a1f))
-    (pin "3" (uuid e7368e96-dbe6-49a4-a97c-ecef99194a1f))
+    (pin "2" (uuid 9d6243a0-de2e-4718-849e-afdeaac00d8b))
+    (pin "2" (uuid 9d6243a0-de2e-4718-849e-afdeaac00d8b))
+    (pin "3" (uuid e7368e96-dbe6-49a4-a97c-ecef99194a20))
+    (pin "3" (uuid e7368e96-dbe6-49a4-a97c-ecef99194a20))
     (instances
       (project "hexahub"
         (path "/19c5c199-cd5a-414d-8700-31cc57e11bc0"

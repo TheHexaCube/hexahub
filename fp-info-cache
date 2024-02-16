@@ -1,4 +1,4 @@
-21106324947422165
+21245664246028723
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -8321,13 +8321,6 @@ BNC female PCB mount 4 pin straight chassis connector http://www.te.com/usa-en/p
 BNC female PCB mount 4 pin straight chassis connector 
 0
 5
-2
-Connector_Coaxial
-BNC_TEConnectivity_CONBNC002_Horizontal
-
-
-0
-4
 2
 Connector_Coaxial
 BNC_Win_364A2x95_Horizontal
@@ -46193,27 +46186,6 @@ USB 3.0 type A right angle Würth
 11
 10
 Connector_USB
-USB3_A_SMD_U231-091N-4BLRA00-S
-
-
-0
-13
-13
-Connector_USB
-USB3_B_U235-091N-4BLRC16-2
-
-
-0
-11
-10
-Connector_USB
-USB3_C_GT-USB-7092A_Right_Angle
-
-
-0
-28
-25
-Connector_USB
 USB3_Micro-B_Connfly_DS1104-01
 Micro USB B receptable with flange, bottom-mount, SMD, right-angle (http://en.connfly.com/static/upload/file/pdf/DS1104-01.pdf)
 USB 3.0 Micro B SMD right angle
@@ -46385,13 +46357,6 @@ Connector_USB
 USB_C_Receptacle_JAE_DX07S024WJ3R400
 USB TYPE C, VERT RCPT PCB, SMT, http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ117928.pdf
 USB C Type-C Receptacle SMD
-0
-28
-25
-Connector_USB
-USB_C_Receptacle_Molex-1054500101
-
-
 0
 28
 25
@@ -49013,13 +48978,6 @@ connector
 0
 4
 4
-Connector_Wire
-rhartman_sense_connect
-
-
-0
-1
-1
 Connector_Wuerth
 Wuerth_WR-WTB_64800211622_1x02_P1.50mm_Vertical
 Wuerth WR-WTB series connector, 64800211622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
@@ -65121,13 +65079,6 @@ U-DFN2020-6 (Type F)
 8
 8
 Package_DFN_QFN
-FCQFN-32-3EP_4x4mm_P0.4mm
-QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8153-8-and-16-bit-avr-microcontroller-xmega-e-atxmega8e5-atxmega16e5-atxmega32e5_datasheet.pdf (Page 70)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
-0
-36
-35
-Package_DFN_QFN
 HVQFN-16-1EP_3x3mm_P0.5mm_EP1.5x1.5mm
 HVQFN, 16 Pin (https://www.nxp.com/docs/en/package-information/SOT758-1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 HVQFN NoLead
@@ -67081,13 +67032,6 @@ TDFN NoLead
 26
 15
 Package_DFN_QFN
-TI_VQFN-56
-
-
-0
-82
-59
-Package_DFN_QFN
 TQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm
 TQFN, 16 Pin (https://www.diodes.com/assets/Datasheets/PI6C5946002.pdf#page=12), generated with kicad-footprint-generator ipc_noLead_generator.py
 TQFN NoLead
@@ -68221,13 +68165,6 @@ VQFN NoLead
 0
 91
 65
-Package_DFN_QFN
-VQFN-100-1EP_12x12mm_P0.4mm_EP8x8mm
-
-
-0
-101
-101
 Package_DFN_QFN
 WDFN-6-2EP_4.0x2.6mm_P0.65mm
 WDFN, 6 pin, 4.0x2.6, 0.65P; Two exposed pads, (https://www.onsemi.com/pub/Collateral/511BZ.PDF)
@@ -73913,13 +73850,6 @@ Integrated Circuit
 13
 9
 Package_SON
-Texas_VSON-8_3x3mm_P0.65_EP2.4x1.65x2.4mm_ThermalVias
-
-
-0
-9
-9
-Package_SON
 Texas_X2SON-4_1x1mm_P0.65mm
 X2SON 5 pin 1x1mm package (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
 X2SON
@@ -74213,13 +74143,6 @@ WSON-16 3.3 x 1.35mm  Pitch 0.4mm
 0
 20
 17
-Package_SON
-X2SON-3_L1.0-W0.6-L
-
-
-0
-3
-3
 Package_SON
 X2SON-8_1.4x1mm_P0.35mm
 X2SON-8 1.4x1mm Pitch0.35mm http://www.ti.com/lit/ds/symlink/pca9306.pdf
@@ -74759,13 +74682,6 @@ SOT-563
 0
 6
 6
-Package_TO_SOT_SMD
-SOT-583
-SOT563
-SOT-563
-0
-8
-8
 Package_TO_SOT_SMD
 SOT-665
 SOT665
@@ -78911,13 +78827,6 @@ AXICOM HF3-Series Relay Pitch 1.27mm 75ohm
 16
 16
 Relay_THT
-Relay
-
-
-0
-6
-6
-Relay_THT
 Relay_1-Form-A_Schrack-RYII_RM5mm
 Relay, 1-Form-A, Schrack-RYII, RM5mm, SPST-NO
 Relay 1-Form-A Schrack-RYII RM5mm SPST-NO
@@ -79082,13 +78991,6 @@ Relay_THT
 Relay_DPST_Schrack-RT2-FormA_RM5mm
 Relay DPST Schrack-RT2 RM5mm 16A 250V AC Form A http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT2_reflow&DocType=DS&DocLang=EN
 Relay DPST Schrack-RT2 RM5mm 16A 250V AC Relay
-0
-6
-6
-Relay_THT
-Relay_HF115F
-
-
 0
 6
 6
